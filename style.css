@@ -1,0 +1,183 @@
+body {
+    background-color: #102760;
+    color: #F1F1F1;
+    font-family: static, sans-serif;
+}
+
+.Header-principal{
+    background-color: #233672;
+    color: #f1f1f1;
+    width: 100%;
+    height: 100px;
+    align-content: center;
+    justify-content:space-between;
+    align-items:center;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-image{
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.espacio-lista-botones{
+    display:flex;
+    align-items: center;
+    text-align: center ;
+    justify-content: space-between;
+    width: 100%;
+    height:80px;
+    padding: 10px;
+}
+
+.navegacion {
+    text-align: right;
+    display: flex;
+}
+
+.navegacion a {
+    color: white;
+    background-color: #495595;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.5s, background-color 0.5s, font-size 0.25s;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.navegacion a:hover {
+    color: gold;
+    background-color: #070d2e;
+    font-size: 110%;
+}
+
+.simple-text-align {
+    text-align: center;
+}
+
+.basic-info-div {
+    background-color: #233672;
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #070d2e;
+    border-style:solid;
+    display: flex;
+    justify-content: space-between;
+    transition: font-size 0.25s;
+}
+
+.basic-info-div a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.basic-info-div h2 {
+    color: gold;
+    padding: 1%;
+}
+
+.basic-info-div:hover{
+    font-size: 105%;
+}
+
+.espacio-juegos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+
+.carta-juego {
+    background-color: #233672;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    text-align: left;
+    border-radius: 15px;
+    border-color: #070d2e;
+    border-style: solid;
+}
+
+.carta-juego h1 {
+    color: darkorange;
+    text-align: center;
+}
+
+.carta-juego p {
+    margin-left: 5px;
+}
+
+.carta-juego img {
+    max-width: 80%;
+    height: 270px;
+    border-radius: 5px;
+    border-color: #070d2e;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carta-juego a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    transition: color 0.25s, font-size 0.25s;
+}
+
+.carta-juego a:hover {
+    color: gold;
+    font-size: 150%;
+}
+
+.carta-juego a:active {
+    font-size: 130%;
+    color: #495595;
+}
+
+.contact-space {
+    background-color: #233672;
+    color: white;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    border-color: #070d2e;
+    border-style: solid;
+    align-items: center;
+    display:flexbox;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contact-space h3 {
+    color: gold;
+}
+
+.contact-space a {
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: color 0.25s, font-size 0.25s;
+}
+
+.contact-space a:hover {
+    color: gold;
+    font-size: 125%;
+}
+
+.contact-space a:active {
+    font-size: 105%;
+    color: #495595;
+}
