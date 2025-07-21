@@ -181,3 +181,57 @@ body {
     font-size: 105%;
     color: #495595;
 }
+
+@media (max-width: 768px) {
+    .Header-principal {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .logo-image {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .espacio-lista-botones {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+
+    .navegacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navegacion a {
+        margin: 5px 0;
+        width: 80%;
+    }
+
+    .basic-info-div {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .basic-info-div h2 {
+        text-align: center;
+    }
+
+    .espacio-juegos {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .carta-juego img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-space {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
